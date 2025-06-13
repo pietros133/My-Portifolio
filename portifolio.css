@@ -1,0 +1,129 @@
+/* Estilo base do body e container */
+body {
+    background-image: linear-gradient(90deg, pink, purple, white);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    transition: background-image 0.5s ease, color 0.5s ease;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-image: linear-gradient(90deg, pink, purple);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-image 0.5s ease, color 0.5s ease;
+}
+
+/* Modo escuro */
+body.dark-mode {
+    background-image: linear-gradient(90deg, #121212, #2c2c2c);
+    color: #eee;
+}
+
+body.dark-mode .container {
+    background-image: linear-gradient(90deg, #2c2c2c, #121212);
+    border-color: #eee;
+    color: #eee;
+}
+
+/* Profile photo */
+.profile-photo {
+    border-radius: 90px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Lista e links */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+ul li {
+    background-color: #f0f0f0;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode ul li {
+    background-color: #333;
+    color: #eee;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+body.dark-mode ul li a {
+    color: #eee;
+}
+
+ul li:hover {
+    background-color: #e0e0e0;
+}
+
+body.dark-mode ul li:hover {
+    background-color: #444;
+}
+
+/* Social links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: black;
+}
+
+body.dark-mode .social-links a {
+    color: #eee;
+}
+
+/* Switch */
+
+.switch {
+    width: 60px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.switch button {
+    width: 28px;
+    height: 28px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: left 0.3s ease, background-color 0.3s ease;
+}
+
+.switch button.active {
+    left: 31px;
+    background: #222;
+}
