@@ -16,7 +16,7 @@
       <div class="logo">Dev.Pietro</div>
 
       <nav id="nav">
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -36,28 +36,44 @@
     <!-- HOME -->
     <section class="home" id="home">
       <div class="home-img">
-        <img src="/assets/profile.png" alt="Photo of Pietro" />
+        <img src="/assets/profile.png" alt="Photo of Pietro Miranda" />
       </div>
+
       <div class="home-content">
         <h1>Hi, I'm <span>Pietro</span></h1>
-        <h3 class="typing-text">Back-End Developer | Python, Node.js, Java</h3>
+        <h3 class="typing-text">
+          Back-End Developer | Python, Node.js, Java
+        </h3>
         <p>
           Back-end Developer focused on building RESTful APIs using Node.js,
           Python, and Java. Experience with business logic, data validation, and
           system integration through personal and academic projects.
         </p>
+
         <div class="social-icons">
           <a
             href="https://www.linkedin.com/in/pietro-miranda-09472b341/"
             target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/pietros133" target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a href="https://www.instagram.com/dev.pietro/" target="_blank"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/pietros133"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/dev.pietro/"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
       </div>
     </section>
@@ -65,30 +81,46 @@
     <!-- SKILLS -->
     <section class="skills" id="skills">
       <h2 class="section-title">My Skills</h2>
+
       <div class="skills-container">
         <div class="skill-box">
-          <i class="fa-brands fa-python"></i><span>Python</span>
+          <i class="fa-brands fa-python"></i>
+          <span>Python</span>
         </div>
+
         <div class="skill-box">
-          <i class="fa-brands fa-node-js"></i><span>Node.js</span>
+          <i class="fa-brands fa-node-js"></i>
+          <span>Node.js</span>
         </div>
+
         <div class="skill-box">
-          <i class="fa-solid fa-flask"></i><span>Flask</span>
+          <i class="fa-solid fa-flask"></i>
+          <span>Flask</span>
         </div>
+
         <div class="skill-box">
-          <i class="fa-brands fa-java"></i><span>Java</span>
+          <i class="fa-brands fa-java"></i>
+          <span>Java</span>
         </div>
+
         <div class="skill-box">
-          <i class="fa-solid fa-database"></i><span>MySQL</span>
+          <i class="fa-solid fa-database"></i>
+          <span>MySQL</span>
         </div>
+
         <div class="skill-box">
-          <i class="fa-brands fa-git"></i><span>Git</span>
+          <i class="fa-brands fa-git"></i>
+          <span>Git</span>
         </div>
+
         <div class="skill-box">
-          <i class="fa-brands fa-github"></i><span>GitHub</span>
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
         </div>
+
         <div class="skill-box">
-          <i class="fa-brands fa-js"></i><span>JavaScript</span>
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
         </div>
       </div>
     </section>
@@ -96,76 +128,115 @@
     <!-- PROJECTS -->
     <section class="projects" id="projects">
       <h2 class="section-title">Main Projects</h2>
+
       <div class="projects-container">
+        <!-- Automaster -->
         <div class="project-box">
           <h3>Automaster</h3>
           <p>
-            AutoMaster is a backend API built with Node.js and TypeORM, designed
-            for managing auto repair shops. It provides features for registering
-            clients and vehicles, as well as creating and managing service
-            orders.
+            AutoMaster is a backend API built with Node.js and TypeORM,
+            designed for managing auto repair shops. It provides features for
+            registering clients, vehicles, and managing service orders.
           </p>
 
           <div class="badges">
             <span class="badge">Node.js</span>
             <span class="badge">MySQL</span>
+            <span class="badge">TypeORM</span>
           </div>
+
           <a
             href="https://github.com/pietros133/Automaster-Backend"
             target="_blank"
             class="btn"
-            >View on GitHub</a
           >
+            View on GitHub
+          </a>
         </div>
 
+        <!-- LivrariaETEC -->
         <div class="project-box">
           <h3>LivrariaETEC</h3>
           <p>
-            LivrariaETEC is a Node.js backend project focused on applying the
-            MVC pattern, featuring a complete CRUD for managing authors,
-            publishers, categories, and users using Express, Sequelize, and
-            MySQL.
+            Complete backend project applying the MVC architecture, featuring
+            CRUD operations for authors, publishers, categories, and users using
+            Express, Sequelize, and MySQL.
           </p>
 
           <div class="badges">
             <span class="badge">Node.js</span>
+            <span class="badge">Express</span>
             <span class="badge">MySQL</span>
           </div>
+
           <a
             href="https://github.com/pietros133/livrariaetec"
             target="_blank"
             class="btn"
-            >View on GitHub</a
           >
+            View on GitHub
+          </a>
         </div>
 
+        <!-- PiggyXP -->
         <div class="project-box">
           <h3>PiggyXP (TCC – In Progress)</h3>
           <p>
-            PiggyXP is an ongoing final course project (TCC) that applies
-            backend concepts to a gamified financial education app. The system
-            includes user progression, XP and level mechanics, missions, and
-            virtual rewards to encourage healthy financial habits.
+            Gamified financial education platform featuring XP progression,
+            levels, missions, achievements, and virtual rewards to encourage
+            healthy financial habits.
           </p>
+
           <div class="badges">
             <span class="badge">Node.js</span>
             <span class="badge">SQL</span>
+            <span class="badge">REST API</span>
           </div>
+
           <a
             href="https://github.com/pietros133/Piggyxp---Backend"
             target="_blank"
             class="btn"
-            >View on GitHub</a
           >
+            View on GitHub
+          </a>
+        </div>
+
+        <!-- Moodle -->
+        <div class="project-box">
+          <h3>Moodle LMS</h3>
+          <p>
+            Learning Management System (LMS) developed and customized to support
+            online education, course management, student enrollment, and digital
+            learning experiences.
+          </p>
+
+          <div class="badges">
+            <span class="badge">Moodle</span>
+            <span class="badge">PHP</span>
+            <span class="badge">MySQL</span>
+          </div>
+
+          <a
+            href="COLE_AQUI_O_LINK_DO_SEU_MOODLE"
+            target="_blank"
+            class="btn"
+          >
+            View Project
+          </a>
         </div>
       </div>
     </section>
+
     <!-- CONTACT -->
     <section class="contact" id="contact">
       <h2 class="section-title">Contact Me</h2>
 
       <div class="contact-info">
-        <a href="mailto:pietromiranda2111@gmail.com" class="contact-item">
+        <a
+          href="mailto:pietromiranda2111@gmail.com"
+          class="contact-item"
+        >
           <i class="fa-solid fa-envelope"></i>
           <span>pietromiranda2111@gmail.com</span>
         </a>
